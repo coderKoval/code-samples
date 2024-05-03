@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-filter = "*"
+markdown = "*"
+python-decouple = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+djangorestframework-simplejwt = "*"
+install = "*"
+drf-yasg = {extras = ["validation"],version = "*"}
+gunicorn = "*"
+
+[requires]
+python_version = "3.7"
